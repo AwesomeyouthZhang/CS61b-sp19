@@ -6,7 +6,6 @@ public class Body{
 	* double yyVel: Its current velocity in the y direction
 	* double mass: Its mass
 	* String imgFileName: The name of the file that corresponds to the image that depicts the body (for example, jupiter.gif)
-
 	 */
 	public double xxPos, yyPos, xxVel, yyVel, mass;
 	public String imgFileName;

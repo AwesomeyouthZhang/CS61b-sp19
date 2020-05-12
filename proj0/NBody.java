@@ -1,3 +1,4 @@
+  
 public class NBody{
      /** 
      * Return the radius of the universe reading from the file 
@@ -72,7 +73,6 @@ public class NBody{
       /**
       * planets img must in the front of background.
       * So the method of draw must be the down of StdDraw.picture(0,0,backgroundFileName)
-
       */
      Body[] bodies = readBodies(filename);
      StdDraw.enableDoubleBuffering();
